@@ -1,11 +1,11 @@
 
 import './App.css';
-import Nav from './Components/Nav';
+import Index from './container/Index';
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
+    <div className="App bg-gray-900 text-gray-50">
+      <Index />
     </div>
   );
 }

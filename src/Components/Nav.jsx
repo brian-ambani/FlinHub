@@ -2,8 +2,8 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div>
-        <ul>
+    <div className='bg-black'>
+        <ul className='flex py-10'>
             <li>Home</li>
             <li>Series</li>
             <li>Movies</li>
