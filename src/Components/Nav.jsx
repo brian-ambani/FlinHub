@@ -11,6 +11,8 @@ const Nav = () => {
             <a href=""><li>Pay</li></a>
             <a href=""><li>MyFHub</li></a>
             <a href=""><li>About</li></a>
+            <a href=""><li>Search</li></a>
+            <a href=""><li>Sign in</li></a>
         </ul>
     </div>
   )
