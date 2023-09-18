@@ -3,9 +3,8 @@ import Nav from '../Components/Nav'
 
 const Index = () => {
   return (
-    <div className='bg-grey-900'>
+    <div className='bg-grey-900 mx-56'>
         <Nav />
-        <h1></h1>
     </div>
   )
 }
