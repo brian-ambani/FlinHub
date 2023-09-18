@@ -2,8 +2,8 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div className='bg-black'>
-        <ul className='flex py-12 items-center space-x-3'>
+    <div className='bg-black grid grid-cols-2 py-10 text-lg'>
+        <ul className='flex space-x-8'>
             <a href=""><li>FHub</li></a>
             <a href=""><li>Watch</li></a>
             <a href=""><li>Explore</li></a>
@@ -11,8 +11,10 @@ const Nav = () => {
             <a href=""><li>Pay</li></a>
             <a href=""><li>MyFHub</li></a>
             <a href=""><li>About</li></a>
-            <a href=""><li>Search</li></a>
-            <a href=""><li>Sign in</li></a>
+        </ul >
+        <ul className='space-x-12 flex'>
+          <a href=""><li>Search</li></a>
+          <a href=""><li>Sign in</li></a>
         </ul>
     </div>
   )
