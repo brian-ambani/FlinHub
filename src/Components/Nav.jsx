@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div className='bg-black grid grid-cols-2 py-10 text-lg'>
+    <div className='container w-3/4 mx-auto bg-black flex items-center justify-between py-10 text-lg'>
         <ul className='flex space-x-8'>
             <a href=""><li>FHub</li></a>
             <a href=""><li>Watch</li></a>
