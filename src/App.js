@@ -1,7 +1,6 @@
 
 import './App.css';
-import Index from './container/Index';
-import { Nav, Hero, Highlights, Plans, Discover, Best, FlinNews, Footer } from '../Components/container';
+import { Nav, Hero, Highlights, Plans, Discover, Best, FlinNews, Footer } from './Components/container';
 
 
 
